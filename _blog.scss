@@ -1,0 +1,60 @@
+$colorB:black;
+$colorW:white;
+
+.section-blog {
+    background-image: url(img/bg_4.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.item-blog {
+    h1{
+        color:$colorW;
+        font-weight: lighter;
+    }
+        p{
+            color:lighten($colorB,30%);
+
+        }
+}
+
+.main-pizza-item {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/bg_4.jpg);
+    display: flex;
+    justify-content: center;
+}
+.pizza-item{
+    display: flex;
+    
+}
+.item1-pizza{
+    padding: 10px;
+
+    img{
+    width: 250px;
+    height: 180px;
+    }
+    p{
+        color:lighten($colorB,30%);
+    }
+    
+}
+h4 {
+    color: $colorW;
+    font-weight: lighter;
+}
+.data {
+    padding-top: 20px;
+    span{
+        color:lighten($colorB,30%);
+        
+    }
+    img {
+    width: 15px;
+    height: 15px;
+    }
+    
+}

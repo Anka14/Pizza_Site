@@ -1,0 +1,404 @@
+$colorB:brown;
+$colorW:white;
+$colorG:rgb(255, 153, 0);
+$colorB:black;
+$size: 150px;
+
+.header-all {
+display: flex;
+    background:darken($colorB,40%);
+    width:100%;
+    height: $size/2;
+    padding-bottom: 0;
+}
+
+.header-container {
+    display: flex;                 
+}
+
+.header-img {
+    display: flex;
+    padding-left: 180px;
+    
+           img {
+            width: 30px;
+            height: 25px; 
+           padding-top: 16px;
+            }
+           
+            h2 {
+                    padding-top: 2px;
+                    color:$colorW;
+                    font-size:large; 
+                }
+}
+
+ h3 {
+    color:$colorW;
+    padding-top: 25px;
+    margin-left: -70px;
+    color:$colorG;
+    font-size:medium;
+    font-weight: 200;
+}
+
+.header-nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 340px;
+       li{
+        padding: 20px;
+       }
+       a {
+            text-decoration: none;
+            list-style-type: none;
+            color:darken($colorW,10%); 
+               &:hover {
+                color:$colorG;
+            }
+        }       
+}
+
+.section-wrapping {
+    display: flex;
+    background-image:url(img/bg_1.jpg);
+    width: 100%;
+    padding-top: 0;
+    
+}
+
+.pizza_description {
+    padding-right: 40px;
+    color: $colorW;
+        .header_taste_pizza {
+            color:$colorG;
+            text-align: end;
+            font-size:x-large;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: lighter;
+            line-height: 5px;
+         }   
+         .header_cuizine_pizza {
+            text-align: end;
+            font-size: xx-large;
+            font-weight: lighter;
+            line-height: 6px;
+        }          
+}
+.par_pizza {
+            text-align:end;
+            color:$colorW ;
+            
+        }
+.slider {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    height:400px;
+    img {
+        width:340px;
+        height: 300px; 
+     }
+}
+.btn-order-menu {
+    text-align: end;
+        .btn-order {
+            height: 40px;
+            background-color:$colorG;
+            border: 2px solid $colorG;
+            
+            &:hover {
+                background-color: transparent;
+                border: 2px solid $colorW;
+            }
+        }
+        .btn-menu {
+            height: 40px;
+            background-color:transparent;
+            border: 2px solid $colorW;
+            color: $colorW;
+            &:hover {
+                background-color: $colorG;
+        }
+        }   
+}
+    .sliders_circle {
+        padding-left: 10px;
+
+            .slide1 {
+                background-color: $colorW;
+
+                
+                &:before {
+                    background-color: $colorG;
+                }
+            }
+    }
+
+    .pictures-of-rest {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .pictures-all {
+display: flex;
+width: 100%;
+height: 180px;
+        img {
+            width: 33%;
+        }
+    }
+
+    .numbers_estimate {
+        background-image: url(img/bg.2.jpg);
+        background-color: black;
+        display: flex;
+        width: 100%;
+        height: 200px;
+       justify-content: center;
+
+    }
+
+    .img-estimate {
+        display: flex;
+        align-self: center;
+            p {
+                color:$colorG;
+                font-size:xx-large;
+                font-weight: bold;   
+            }
+        img {
+            width: 50px;
+            height: 50px;
+            border: 2px solid $colorG;
+            padding: 8px;
+            
+        }
+    }
+    .img-estimate span {
+    padding: 0;
+    
+    }
+
+    .img1-estimate {
+        color: darken($colorW, 10%);
+        text-align: center;
+        
+    }
+    .img2-estimate {
+        color: darken($colorW, 10%);
+        text-align: center;
+    }
+    .img3-estimate {
+    color: darken($colorW, 10%);
+    text-align: center;
+    }
+    .img4-estimate {
+    color: darken($colorW, 10%);
+    text-align: center;
+    }
+
+    .section3 {
+        background-image: url(img/bg_4.jpg);
+        height: 600px;
+    }
+    .picture-section3 {
+        display: flex;
+        
+        img{
+            width:480px;
+            height: 550px;   
+        }
+    }
+    .btn-food-section3 {
+        padding-left: 30px;
+        padding-top: 10px;
+       
+        .btn-food{
+            padding: 10px;
+            background-color: transparent;
+            border:2px solid $colorG;
+            color:$colorW;
+                
+                &:hover {
+                background-color: $colorG;
+                border: 2px solid $colorG;
+                color: $colorW;
+            }
+
+        }
+
+    }
+
+    .pizza-img-section3 {
+        display: flex;
+        width: 100%;
+        
+    }
+
+    .img1-section3 {
+        text-align: center;
+        
+        h2{
+            color: $colorW;
+                
+        }
+        .par-section3 {
+        text-align: center;
+        color:darken($colorW,30%);
+        padding-right: 10px;
+        
+        }
+    }
+ .par-cost {
+     color:$colorG;
+ }
+    .img1-section3 img {
+            padding-top: 35px;
+            width:150px;
+            height: 150px;
+        
+    }
+    
+
+    .btn-add {
+        background-color: transparent;
+        color:$colorW;
+        border:2px solid grey;
+
+        &:hover {
+                background-color: $colorG;
+                border: 2px solid $colorG;
+                color: $colorW;
+    }
+}
+
+    footer {
+    background-image: url(img/bg_4.jpg);
+    }
+    .footer-section {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+       height: 340px;
+        color: $colorW;
+        
+    }
+    .about {
+        padding-right: 20px;
+        padding-top: 20px;
+        width: 20%;
+            .par-about {
+                color: darken($colorW, 40%);
+            }
+            img {
+                width: 25px;
+                height: 25px;
+                border: 2px solid lighten($colorB,20%);
+                border-radius: 18px;
+                background-color:lighten($colorB,20%);
+                padding: 4px;
+            }
+    }
+    .blog {
+        padding: 20px;
+        
+            img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .blog-descreption {
+        display: flex;
+        flex-wrap: wrap;
+        
+            
+    }
+    .par-img {
+            img {
+                width: 15px;
+                height: 14px;
+                }
+                    .par-blog1 {
+                        padding-left:8px ;
+                        line-height: 15px;
+                    }      
+    }
+
+        .img-span-blog {
+            display: flex;
+            
+                
+}
+    .par-img {
+        img {
+        padding: 8px;
+        }
+        span {
+            font-size: x-small;
+            color:darken ($colorW, 50%);
+            
+        }
+    } 
+    .blog-descreption2 {
+        display: flex;
+        flex-wrap: wrap;
+        
+            
+    }
+     .services {   
+         padding: 20px;  
+         
+         
+}
+    .description-services {
+         flex-wrap: wrap; 
+         color:darken($colorW, 50%);  
+         line-height: 25px;
+    }
+
+    .questions{
+        padding: 20px;
+    }
+
+    .question-descreption1 {
+        display: flex;
+        flex-wrap: wrap;
+        color: darken($colorW,50%);
+        padding-bottom: 25px;
+        
+                img {
+                width: 15px;
+                height: 15px;
+                }
+    }
+    .question-descreption2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+                img {
+                width: 15px;
+                height: 15px;
+                }
+    }
+
+    .question-descreption3 {
+        display: flex;
+        flex-wrap: wrap;
+                img {
+                width: 15px;
+                height: 15px;
+                background-color: darken($colorW, 20%);
+                }
+    }
+    .copyrights {
+        padding: 80px;
+        color: $colorW;
+        text-align: center;
+    }

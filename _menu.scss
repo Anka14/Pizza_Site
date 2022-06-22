@@ -1,0 +1,496 @@
+
+$colorB:brown;
+$colorW:white;
+$colorG:rgb(255, 153, 0);
+$colorB:black;
+$size: 150px;
+
+.header-all {
+display: flex;
+    background:darken($colorB,40%);
+    width:100%;
+    height: $size/2;
+    padding-bottom: 0;
+}
+
+.header-container {
+    display: flex;                 
+}
+
+.header-img {
+    display: flex;
+    padding-left: 180px;
+    
+           img {
+            width: 30px;
+            height: 25px; 
+           padding-top: 16px;
+            }
+           
+            h2 {
+                    padding-top: 2px;
+                    color:$colorW;
+                    font-size:large; 
+                }
+}
+
+ h3 {
+    color:$colorW;
+    padding-top: 25px;
+    margin-left: -70px;
+    color:$colorG;
+    font-size:medium;
+    font-weight: 200;
+}
+
+.header-nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 340px;
+       li{
+        padding: 20px;
+       }
+       a {
+            text-decoration: none;
+            list-style-type: none;
+            color:darken($colorW,10%); 
+               &:hover {
+                color:$colorG;
+            }
+        }       
+}
+
+.section1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-image: url(img/bg_4.jpg);
+    justify-content: center;
+}
+.name_par_section1 {
+   
+    h1 {
+        color: $colorW;
+        font-weight: lighter;
+        text-align: center;
+    }
+    p {
+        color:darken($colorW, 40%);
+        text-align: center;
+    }
+}
+.pizza-menu1 {
+    display: flex;
+    width: 100%;
+    
+        img {
+            width: 21%;
+            height: 240px;
+        }
+}
+.menu-description {
+    width: 21%;
+    height: 210px;
+    background-image: url(img/bg_4.jpg);
+    padding: 15px;
+        h5 {
+            color:$colorW;
+            font-weight: lighter;
+            font-size: medium;
+        }
+        .parag-description {
+            color:darken($colorW, 40%);
+        }
+}
+.cost-order {
+    display: flex;
+    line-height: 1px;
+        .price {
+        color: $colorG;
+      
+}
+        .btn-order {
+         width: 50px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: $colorW;
+        background-color: transparent;
+        border: 1px solid $colorW;
+        
+}
+}
+
+.section3-menu-description {
+    height: 230px;
+}
+.pizza-menu3 {
+    display: flex;
+    width: 100%;
+    background-image: url(img/bg_4.jpg);
+}
+.menu-description3-section3{
+    width: 14%;
+    height: 230px;
+    padding-left: 15px;
+             h5 {
+            color:$colorW;
+            font-weight: lighter;
+            font-size: medium;
+    }
+            .parag-description3 {
+            color:darken($colorW, 40%);
+            
+            
+        }
+}
+        
+.cost-order3 {
+    display: flex;
+    line-height: 1px;
+    
+        .price3 {
+        color: $colorG;
+}
+        .btn-order3 {
+        width: 50px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: $colorW;
+        background-color: transparent;
+        border: 1px solid $colorW;
+
+}
+}
+
+.menu-picture1 {
+        img{
+            padding-left: 15px;
+            width: 300px;
+            height: 230px;
+           
+        }
+}
+.menu-wrapping-section3{
+    width: 15%;
+    height: 230px;
+    padding-left: 15px;
+             h5 {
+            color:$colorW;
+            font-weight: lighter;
+            font-size: medium;
+    }
+            .parag-description3-wrapping{
+            color:darken($colorW, 40%);
+            
+            
+        }
+}
+.cost-order3-wrapping{
+    display: flex;
+    line-height: 1px;
+    
+        .price3-wrapping {
+        color: $colorG;
+}
+        .btn-order3-wrapping{
+        width: 50px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: $colorW;
+        background-color: transparent;
+        border: 1px solid $colorW;
+
+}
+}
+    
+.menu-picture2-wrapping {
+        img{
+            padding-right:28px;
+            width: 305px;
+            height: 230px;
+        }
+}
+
+.menu-pizza-section3{
+    width: 17%;
+    height: 230px;
+    padding-left: 15px;
+             h5 {
+            color:$colorW;
+            font-weight: lighter;
+            font-size: medium;
+    }
+            .parag-pizza-description3{
+            color:darken($colorW, 40%);
+            
+            
+        }
+}
+.cost-pizza-order3{
+    display: flex;
+    line-height: 1px;
+    
+        .pizza-price3 {
+        color: $colorG;
+}
+        .btn-pizza-order3{
+        width: 50px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: $colorW;
+        background-color: transparent;
+        border: 1px solid $colorW;
+
+}
+}
+.menu-pizza-picture3{
+        img{
+            padding-left: 13px;
+            width: 310px;
+            height: 230px;
+        }
+
+}
+.section4 {
+    width: 100%;
+    height: 200px;
+    background-image: url(img/bg_4.jpg);
+    display: flex;
+    justify-content: center;
+}
+.pricing-menu {
+     h1{
+         color:$colorW;
+         font-weight: lighter;
+         text-align: center;
+     }
+     p {
+         color:darken($colorW, 40%);
+         text-align: center;
+     }
+    
+}
+.section5 {
+    background-image: url(img/bg_4.jpg);
+    width: 100%; 
+    display: flex;
+}
+.menu-section5 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.menu4_description{
+width: 100%;
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
+
+        img {
+            width: 90px;
+            height: 80px;
+        }
+}
+.description-pizza {
+    padding-left: 10px;
+    line-height: 4px;
+        .span1{
+            color:$colorW;   
+        }
+        .span2 {
+            color:$colorG;
+        }
+}
+.par-text {
+    color: darken($colorW, 40%);
+}
+.section6 {
+    background-image: url(img/bg_4.jpg);
+    width: 100%; 
+    display: flex;
+}
+.menu-section6 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.menu_description_section6 {
+    width: 100%;
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
+
+        img {
+            padding-left: 10px;
+            width: 90px;
+            height: 80px;
+        }
+}
+.description-pizza_section6 {
+    padding-left: 10px;
+    line-height: 4px;
+        .span1_section6{
+            color:$colorW;   
+        }
+        .span2_section6 {
+            color:$colorG;
+        }
+}
+.par-text_section6 {
+    color: darken($colorW, 40%);
+}
+.menu_description2_section6 {
+width: 100%;
+display: flex;
+justify-content: center;
+
+        img {
+            padding-left: 10px;
+            width: 90px;
+            height: 80px;
+        }
+}
+.description2-pizza_section6{
+    padding-left: 10px;
+    line-height: 4px;
+        .span1_pizza_name_section6{
+            color:$colorW;   
+        }
+        .span2_pizza_price_section6{
+            color:$colorG;
+        }
+    }
+.par-pizza-text6 {
+    color:darken($colorW, 40%);
+}
+.section7-pizza-wrapping {
+    background-image: url(img/bg_4.jpg);
+    width: 100%; 
+    display: flex;
+}
+
+.menu-section7-wrapping{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.menu_description_section7{
+    width: 100%;
+display: flex;
+justify-content: center;
+
+        img {
+            padding-right: 10px;
+            width: 90px;
+            height: 80px;
+        }
+}
+.description-pizza_section7{
+    padding-left: 10px;
+    line-height: 4px;
+        .span1_wrapping_section7{
+            color:$colorW;   
+        }
+        .span2_wrapping_section7 {
+            color:$colorG;
+        }
+}
+.par-wrapping_section7{
+    color:darken($colorW, 40%);
+}
+.menu_text_section7{
+    width: 100%;
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
+
+
+        img {
+            padding-right: 20px;
+            width: 90px;
+            height: 80px;
+        }
+}
+.description2-text_section7{
+    padding-left: 10px;
+    line-height: 4px;
+        .span1_text_name_section7{
+            color:$colorW;   
+        }
+        .span2_text_price_section7 {
+            color:$colorG;
+        }
+}
+.par-text-section7 {
+    color:darken($colorW, 40%);
+}
+.order-menu {
+    background-image: url(img/bg_4.jpg);
+    width: 100%; 
+    display: flex;
+}
+.menu-order-description{
+     display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.menu-order-img{
+width: 100%;
+display: flex;
+justify-content: center;
+
+        img {
+            padding-left: 30px;
+            width: 90px;
+            height: 80px;
+        }
+}
+.description-pizza-order{
+    padding-left: 10px;
+    line-height: 4px;
+        .span1_order{
+            color:$colorW;   
+        }
+        .span2_order {
+            color:$colorG;
+        }
+}
+.par-order{
+    color:darken($colorW, 40%);
+}
+.menu_pizza-buy{
+    
+    width: 100%;
+display: flex;
+justify-content: center;
+
+        img {
+            padding-left: 20px;
+            width: 90px;
+            height: 80px;
+        }
+}
+.description-pizza-buy{
+    padding-left: 10px;
+    line-height: 4px;
+        .span1_pizza-buy{
+            color:$colorW;   
+        }
+        .span2_pizza-buy {
+            color:$colorG;
+        }
+}
+.par-pizza-buy{
+    color:darken($colorW, 40%);
+}

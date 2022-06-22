@@ -1,0 +1,64 @@
+
+$colorW:white;
+$colorB:black;
+
+.main-about{
+    display: flex;
+    
+    
+}
+.header-line{
+    display: flex;
+    width: 100%;
+     background-image: url(img/bg_4.jpg);
+    
+    
+}
+.contact-info{
+   padding-left: 40px;
+    
+    width: 40%;
+    
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        span{
+            color:$colorW;
+        }
+}
+.icons{
+    background-image: url(img/food.png);
+    width: 60%;
+        img{
+            width:25px;
+            height: 25px;
+            padding: 15px;
+        }
+}
+p {
+    color:lighten($colorB,40%);
+}
+.picture_with_description{
+    
+}
+.picture_cafe{
+    display: flex;
+    .logo_pizza{
+        width: 25x;
+        height: 25px;
+
+    }
+}
+
+.picture_cafe_description{
+    width: 100%;
+    background-image: url(img/bg_4.jpg);
+    padding: 65px;
+        h1{
+            color: $colorW;
+        }
+        p{
+            text-align: justify;
+        }
+}
