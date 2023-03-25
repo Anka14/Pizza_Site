@@ -1,4 +1,4 @@
 # Pizza_Site
-the cite of pizza created with using HTML and CSS (SASS)
+pizza cite created with using HTML5 and CSS (SASS)
 
 
